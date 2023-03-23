@@ -21,6 +21,13 @@
       "@ui-vts/icons-angular/icons": [
         "src/icons/public_api"
       ]
-    }
+    },
+  },
+  "angularCompilerOptions": {
+    "enableResourceInlining": true,
+    "strictMetadataEmit": true,
+    "flatModuleOutFile": "index.js",
+    "flatModuleId": "icons-angular",
+    "skipTemplateCodegen": true
   }
 }
